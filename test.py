@@ -6,3 +6,4 @@ elif a == b:
     print('0')
 else:
     print('2')
+print('test complete')
