@@ -1,6 +1,3 @@
-import os
-import sys
-
 a = int(input())
 b = int(input())
 if a > b:
