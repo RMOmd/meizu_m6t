@@ -6,7 +6,7 @@ from tkinter import *
 
 try:
     import Tkinter as tkinter
-except ImportError:  # Python 3
+except ImportError:
     import tkinter
 def son1():
     time.sleep(1)
