@@ -27,7 +27,7 @@ root.after(78000, text.insert, 'end', u"\n Сбрасываем точки до�
 root.after(85000, text.insert, 'end', u"\n Выходим на рабочий стол")
 root.after(87000, text.insert, 'end', u"\n Заходим в звонилку.")
 root.after(89000, text.insert, 'end', u"\n Заходим в HiddenMenu")
-
+root.after(91000, text.insert, 'end', u"\n Теперь можно закрыть окно")
 
 root.geometry('400x450')
 root.config(bg='white')
