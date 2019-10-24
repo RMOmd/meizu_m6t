@@ -1,7 +1,0 @@
-<application>
-  <component name="GithubAccounts">
-    <account id="3a90e326-b1d9-4c21-9188-ec98ee45b536" name="RMOmd">
-      <server useHttp="false" host="github.com" />
-    </account>
-  </component>
-</application>
