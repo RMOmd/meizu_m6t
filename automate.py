@@ -2,7 +2,7 @@ import os
 import time
 
 os.system("adb devices")
-time.sleep(3)
+#time.sleep(3)
 device = os.popen("adb devices").read().split('\n', 1)[1].split("device")[0].strip()
 # connect to the selected device 127.0.0.1:62001
 print("Waiting for connection ...")
