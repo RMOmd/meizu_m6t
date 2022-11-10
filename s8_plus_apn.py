@@ -2,7 +2,7 @@ import os
 import time
 
 os.system("adb shell input swipe 550 1180 550 500 100") # разблокируем экран
-print("Разблокируем экран")
+print("Разблокируем экран ")
 time.sleep(2)
 os.system("adb shell input tap 150 1825") # Заходим в настройки
 print("Заходим в настройки")
