@@ -51,7 +51,7 @@ os.system("adb shell input tap 75 125") # выход из карты
 print("Выход из сим-карт")
 
 os.system("adb shell input tap 555 2175") # выход на рабочий стол
-print("Выходим на рабочий стол")
+print("Выходим на рабочий стол ")
 time.sleep(1)
 os.system("adb shell input tap 100 1915") # звонилка
 print("Заходим в звонилку")
