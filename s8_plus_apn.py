@@ -26,7 +26,7 @@ time.sleep(1)
 os.system("adb shell input tap 888 807") # ok
 time.sleep(1)
 os.system("adb shell input tap 170 510") # апн
-print("Ввод имени точки доступа")
+print("Ввод имени точки доступа ")
 os.system('adb shell input text "4g.idknet.com"')
 time.sleep(1)
 os.system("adb shell input tap 888 807") # ok
